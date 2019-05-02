@@ -3,7 +3,7 @@ layout: post
 title: Three months of using Linux on my Chuwi Hi10 Plus tablet
 ---
 
-![Tablet playing Hacknet, isn't that cool?]({{ site.baseurl }}/images/ChuwiHi10/IMG_20181228_130127.jpg)
+![Tablet playing Hacknet, isn't that cool?](https://raw.githubusercontent.com/Danct12/danct12.github.io/master/images/ChuwiHi10/IMG_20181228_130127.jpg)
 
 I've had this tablet for quite sometime now, originally runs Windows 10, but Windows 10 on this tablet? Well, you would think it'll run smoothly because it was made for it?
 
