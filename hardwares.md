@@ -18,7 +18,7 @@ My everyday use device, it's a portable laptop but I don't have the keyboard cov
 
 **Specs:**
 | Component | Part                                                          |
-|-----------|---------------------------------------------------------------|
+| --------- | ------------------------------------------------------------- |
 | CPU       | Intel Atom x5-Z8350                                           |
 | RAM       | 4 GB                                                          |
 | GPU       | Intel Integrated Graphics                                     |
