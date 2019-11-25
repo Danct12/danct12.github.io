@@ -8,11 +8,6 @@ As a guy interested in technology, there must be hardwares that they own, right?
 
 # My Portable Devices:
 
-## LG Optimus Net P698 (Dual SIM)
-This phone is now dead, no longer read SD cards.
-
-The phone used to be a small Linux server, running Debian Jessie and on kernel 2.6.38.
-
 ## Chuwi Hi10 Plus
 My everyday use device, it's a portable laptop but I don't have the keyboard cover so had to plug OTG cables and keyboard/mouse.
 
@@ -27,9 +22,10 @@ My everyday use device, it's a portable laptop but I don't have the keyboard cov
 It's a desktop, my main one. It's mostly used for compiling packages for postmarketOS.
 
 **Specs:**
-- CPU: Intel Core i7-6700k - 4.0 GHz (Turbo Boost to 4.2GHz)
+- CPU: Intel Core i7-6700k - 4.0 GHz
 - RAM: 1x 8 GB DDR4 from Corsair
 - GPU: NVIDIA Geforce GTX 1050 Ti + Intel Integrated
-- Storage: 1x 1.5 TB WD Green + 1x 1.0 TB Seagate Barracuda
+- Storage: 1x 1.5 TB WD Green + 1x 1.0 TB WD Green
 - Monitor: 1x SP2208WFP (plugged to GPU) + 1x LG FLATTRON L1742S (plugged to Intel)
-- OS: Huong Tram Linux 2019.04 (Linux distribution based on Arch Linux)
+- OS: Arch Linux
+- **MELTDOWN/SPECTRE/ZOMBIELAND MIGRATIONS DISABLED**
