@@ -17,20 +17,12 @@ avatar: /images/mascot.jpg
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  dribbble:
   email: danct12@disroot.org
-  facebook:
-  flickr:
   github: Danct12
-  instagram:
-  linkedin:
-  pinterest:
   rss: huong tram is my favorite singer
   twitter: RealDanct12
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: user/danct12cp
-  googleplus: # anything in your profile username that comes after plus.google.com/
-
+  discord: https://discord.gg/AvtdRJ3
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
@@ -47,7 +39,7 @@ url: https://danct12.github.io
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: "/"
+baseurl: ""
 
 #
 # !! You don't need to change any of the configuration flags below !!
@@ -56,7 +48,7 @@ baseurl: "/"
 permalink: /:title/
 
 # The release of Jekyll Now that you're using
-version: v1.2.0
+version: v6.6.6
 
 # Jekyll 3 now only supports Kramdown for Markdown
 kramdown:
