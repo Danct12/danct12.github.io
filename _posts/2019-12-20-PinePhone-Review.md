@@ -24,20 +24,20 @@ On the top right corner, there are six killswitches, this can be used to cut the
 5. **Front camera:** On enables the front camera, off disables.
 6. **Headphone:** On enables audio input and output via the 3.5mm audio jack, off switches the jack to hardware UART mode.
 
-These yellow spikey pins are GPIOs, these are used by hardware manufacturers to create custom accessories for the PinePhone, which as of right now.. I don't see any, but if there are someone currently making one, I'd love to see keyboard accessory for it, as it is a phone for Linux users and.. probably hacking.
+These yellow pads are I2Cs, these are used by hardware manufacturers to create custom accessories for the PinePhone, which as of right now.. I don't see any, but if there are someone currently making one, I'd love to see keyboard accessory for it, as it is a phone for Linux users and.. probably hacking.
 
-See that shiny piece of metal at the left corner? That's the Quectel EG25 modem, this chip is responsible for 2G/3G/4G communication, as well as GPSS.
+See that shiny piece of metal at the left corner? That's the [Quectel EG25-G] modem, this chip is responsible for 2G/3G/4G communication, as well as GNSS.
 
 On the side, there is volume rocker and power button, it's the exact same thing on the PineTab. And one of my favorite feature from the phone that it includes a headphone jack, this is something that some phones are getting taken away, and it's also responsible for UART as well.
 
 At the bottom, there is USB-C™, this phone supports Quick Charge (5V - 3A) unlike my Redmi 4X, OTG and DisplayPort.
 
 # Software
-Now, guess what? The eMMC in this phone is 16 GB, and contain a factory test image of Android Nougat in the eMMC despite TL said it won't, but that's not a big deal. However the factory test image is pretty outdated and doesn't support touch screen.
+The eMMC in this phone is 16 GB, and contain a factory test image of Android Nougat despite TL said it won't, but that's not a big deal. However the factory test image doesn't support touch screen.
 
 So how do you install a properly working OS? Well, Allwinner SoCs supports booting from SD Card, so you can flash a Linux distribution to the SD Card, insert the SD Card to the device, then boot the device, it should boot straight away to the SD Card.
 
-My flavour is [postmarketOS], so I installed it to the SD card using pmbootstrap rather than getting a dd-ready image off the site. For the choice of UI, I use Plasma Mobile.
+My flavour is [postmarketOS], so I installed it to the SD card using pmbootstrap rather than getting a dd-ready image off the site. For the choice of UI, I use [Plasma Mobile].
 
 The front camera isn't working yet, however there is some WIP progress done on the camera. USB OTG used to work, but from what I heard there is a display bridge chip and that causes OTG to stops working, however that could be fixed by getting the driver for the chip to work.
 
@@ -54,6 +54,10 @@ I'm very sastified about this phone, this can be my daily driver only if the mod
 
 You should also check out [Drew Devault's Review](https://drewdevault.com/2019/12/18/PinePhone-review.html) on the PinePhone.
 
+PinePhone motherboard image by MartijnBraam.
+
+[Quectel EG25-G]: https://www.quectel.com/product/eg25g.htm
+[Plasma Mobile]: https://www.plasma-mobile.org
 [DoA]: https://en.wikipedia.org/wiki/Dead_on_arrival
 [postmarketOS]: https://postmarketos.org
 
