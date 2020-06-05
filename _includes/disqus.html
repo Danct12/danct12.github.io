@@ -1,15 +1,23 @@
 {% if site.disqus %}
 <div class="comments">
 	<div id="disqus_thread"></div>
+
+	<p id="load_disqus_label">Comments on this site uses Disqus, please read
+	<a href="https://help.disqus.com/en/articles/1717103-disqus-privacy-policy" target="_blank">Disqus Privacy Policy</a>
+	 before clicking the button below.</p>
+	<button id="load_disqus_btn" onclick="load_disqus()">Click here to load comments</button>
+
 	<script type="text/javascript">
 
 	    var disqus_shortname = '{{ site.disqus }}';
 
-	    (function() {
+	    function load_disqus() {
+		document.getElementById("load_disqus_btn").remove();
+		document.getElementById("load_disqus_label").remove();
 	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
 	        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-	    })();
+	    }
 
 	</script>
 	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
