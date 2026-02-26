@@ -16,7 +16,7 @@ Few weeks ago, I received a package from Pine64, yes, that Pine64 which makes si
 I've been working on the PineTab and postmarketOS for a few weeks now, but today I wanted to try out something new, so let's run Arch Linux ARM on my PineTab.
 
 ## Getting started
-To do this, I used my trusty compiling dummy (which is also my main computer), my PineTab I received for development and of course, you need to have a **SOUL** and **DETERMINATION**.
+To do this, I used my trusty compiling dummy (which is also my main computer) and my PineTab I received for development.
 
 ### Compiling kernel
 To compile kernel, you need a cross-compiler toolchain, luckily if you're using Arch Linux, it's also packaged and can be installed by `pacman -S aarch64-linux-gnu-gcc`
