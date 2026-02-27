@@ -1,0 +1,6 @@
+{{ $byear := sub now.Year 2001 }}
+{{ if and (ge now.Month 10) (ge now.Day 18) }}
+    {{- $byear -}}
+{{ else }}
+    {{- sub $byear 1 -}}
+{{ end }}

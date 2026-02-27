@@ -1,0 +1,95 @@
+:root {
+  /* CGA color palette */
+  --black: #000000;
+  --red: #aa0000;
+  --green: #00aa00;
+  --brown: #aa5500;
+  --blue: #0000aa;
+  --magneta: #aa00aa;
+  --cyan: #00aaaa;
+  --lightgray: #aaaaaa;
+  --darkgray: #555555;
+  --lightred: #ff5555;
+  --lightgreen: #55ff55;
+  --yellow: #ffff55;
+  --lightblue: #5555ff;
+  --lightmagneta: #ff55ff;
+  --lightcyan: #55ffff;
+  --white: #ffffff;
+}
+
+/* Let's use Amstrad PC font here, since I find it to look cool.. */
+@font-face {
+  font-family: "Amstrad2y";
+  src: url('/fonts/Web437_Amstrad_PC-2y.woff') format('woff');
+}
+
+body {
+  color: var(--white);
+  font-family: "Amstrad2y";
+  line-height: 1.5;
+  margin: 1rem;
+  max-width: 768px;
+
+  background-color: var(--black);
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+footer {
+  margin-top: 2rem;
+}
+
+a {
+  color: var(--cyan);
+  text-decoration: none;
+}
+
+/* Thanks domi! */
+h1, h2, h3, h4 { font-weight: initial; }
+
+/* Table margins for posts page */
+.post-list {
+  padding-right: 1rem;
+}
+
+/* Cursor blinker */
+@keyframes blinker {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.site-header a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+/* CSS highlight colors */
+::-moz-selection {
+  color: var(--black);
+  background: var(--white);
+}
+
+::selection {
+  color: var(--black);
+  background: var(--white);
+}
+
+/*
+Source - https://stackoverflow.com/a/4407335
+Posted by Blowsie, modified by community. See post 'Timeline' for change history
+Retrieved 2026-02-26, License - CC BY-SA 4.0
+*/
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}

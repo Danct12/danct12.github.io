@@ -1,12 +1,16 @@
 baseURL = 'https://danct12.github.io/'
 languageCode = 'en-us'
-title = "danct12's boring log"
-author = "danct12"
-copyright = "Copyright © 2024, Danct12. Content on this site is licensed under CC-BY-SA 4.0."
+title = "danct12's webpage"
 
-theme = 'simplog'
+theme = 'amstrad'
 
 [menu]
+
+  [[menu.main]]
+    identifier = "posts"
+    name = 'Posts'
+    url = '/posts/'
+    weight = 10
 
   [[menu.main]]
     identifier = "about"
@@ -33,7 +37,5 @@ theme = 'simplog'
     weight = 40
 
 [params]
-  disqusShortname = "danct12"
-  colorTheme = "dark"
-  [params.enabled]
-    comment = true
+  author = "Danct12"
+  copyright = "Content on this site is licensed under CC-BY-SA 4.0 unless otherwise noted."

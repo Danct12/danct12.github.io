@@ -1,0 +1,19 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  <table>
+    <thead style='display:none;'>
+      <th >Date</th>
+      <th>Title</th>
+    </thead>
+    <tbody>
+    {{ range .Pages }}
+    <tr>
+      <td class='post-list' align='right'>{{ .Date | time.Format ":date_medium" }}</td>
+      <td><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</td>
+    </tr>
+    {{ end }}
+    </tbody>
+  </table>
+
+{{ end }}
