@@ -22,6 +22,8 @@
 @font-face {
   font-family: "Amstrad2y";
   src: url('/fonts/Web437_Amstrad_PC-2y.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {

@@ -39,3 +39,4 @@ theme = 'amstrad'
 [params]
   author = "Danct12"
   copyright = "Content on this site is licensed under CC-BY-SA 4.0 unless otherwise noted."
+  defaultimage = "default.jpg"

@@ -1,4 +1,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
+
+<meta property="og:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}">
+<meta property="og:description" content="{{ .Summary }}">
+{{ if .Params.image }}
+<meta property="og:image" content="{{ site.BaseURL }}/{{ .Params.image }}" />
+{{ else }}
+<meta property="og:image" content="{{ site.BaseURL }}/{{ site.Params.defaultimage }}" />
+{{ end }}
+
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
 {{ partialCached "head/css.html" . }}
