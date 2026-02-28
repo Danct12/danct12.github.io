@@ -13,12 +13,6 @@ theme = 'amstrad'
     weight = 10
 
   [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 10
-
-  [[menu.main]]
     identifier = "hardwares"
     name = "Hardwares"
     url = "/hardwares/"
