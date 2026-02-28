@@ -2,7 +2,7 @@
 <meta name="viewport" content="width=device-width">
 
 <meta property="og:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}">
-<meta property="og:description" content="{{ .Summary }}">
+<meta property="og:description" content="{{ .Params.desc }}">
 {{ if .Params.image }}
 <meta property="og:image" content="{{ site.BaseURL }}/{{ .Params.image }}" />
 {{ else }}
