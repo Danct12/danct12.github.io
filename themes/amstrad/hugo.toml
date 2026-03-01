@@ -13,6 +13,11 @@ title = 'My New Hugo Site'
     pageRef = '/posts'
     weight = 20
 
+[params]
+  author = "Author"
+  copyright = "All rights reserved."
+  defaultimage = "default.jpg"
+
 [module]
   [module.hugoVersion]
     extended = false
