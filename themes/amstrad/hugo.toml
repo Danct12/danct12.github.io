@@ -18,6 +18,12 @@ title = 'My New Hugo Site'
   copyright = "All rights reserved."
   defaultimage = "default.jpg"
 
+[markup.goldmark.renderer]
+  unsafe = true # Allow HTML in md files
+
+[markup.goldmark.extensions.typographer]
+  disable = true
+
 [module]
   [module.hugoVersion]
     extended = false

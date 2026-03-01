@@ -30,6 +30,12 @@ theme = 'amstrad'
     url = "/categories/"
     weight = 40
 
+[markup.goldmark.renderer]
+  unsafe = true # Allow HTML in md files
+
+[markup.goldmark.extensions.typographer]
+  disable = true
+
 [params]
   author = "Danct12"
   copyright = "Content on this site is licensed under CC-BY-SA 4.0 unless otherwise noted."

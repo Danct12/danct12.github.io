@@ -1,8 +1,9 @@
 # about me
 
-- Pronouns: he/him or they/them
+- Pronouns: he/him or <span style='color:var(--yellow)'>th</span><span style='color:var(--white)'>ey</span>/<span style='color:var(--magneta)'>th</span><span style='color:var(--darkgray)'>em</span>
 - Age: {{< year >}}
 - Interests: music, demoscene, photography, old computers
+- <span style='color:var(--lightmagneta)'>bi</span><span style='color:var(--magneta)'>sex</span><span style='color:var(--lightblue)'>ual</span>
 
 I'm a embedded system developer, you may know me as the maintainer of [Arch Linux on PinePhone](https://codeberg.org/DanctNIX/Pine64-Arch/releases) and from various Ubuntu Touch/SailfishOS device ports.
 
